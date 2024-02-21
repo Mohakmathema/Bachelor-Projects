@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body{
+   background-image: url("https://images.unsplash.com/photo-1503117388374-af436bb2be2c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDR8fHllbGxvdyUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D");
+    backdrop-filter: blur(19px);
+    background-size: cover;
+}
+
+
+
+.placeDetail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+}
+
+.placeDetail .datetime{
+    font-weight: 700;
+}
+
+.placeDetail .location{
+    font-weight: 700;
+}
+
+.currentTemperature{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.description{
+    display: flex;
+    color: rgba(0, 0, 0, 0.91);
+    background: rgba(0, 0, 0, 0.34);
+    border-radius: 20px;
+    padding: 2px 10px;
+    font-size: 24px;
+    text-align: center;
+    }
+
+.temp-items{
+    background: rgba(52, 52, 52, 0.34);
+    border-radius: 14px;
+    padding: 20px;
+    color: rgb(255, 250, 240);
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.today{
+    padding-left: 20px;
+}
+
+.temp br{
+    display: none;
+}
+
+
+.other-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.other-items{
+    padding: 20px;
+    background: rgba(211, 211, 211, 0.35);
+    border-radius: 14px;
+    margin: 10px;
+}
+
+.other-items div{
+    padding: 5px;
+}
+
+#humidity{
+    background: rgba(248, 211, 217, 0.34);
+}
+
+#pressure{
+    background: rgba(248, 185, 185, 0.34);
+}
+
+#wind{
+    background: rgba(185, 185, 250, 0.34);
+}
+
+#uv{
+    background: rgba(239, 239, 167, 0.34);
+}
+
+#visibility{
+    background:  rgba(211, 211, 211, 0.34);
+}
+
+.temp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temp img{
+    max-width: 100%;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.search input{
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.34);
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.search button{
+    color: black;
+    border-radius: 60px;
+    background: rgba(0, 0, 0, 0.34);
+    padding: 10px;
+    text-align: center;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.search button:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.57);
+    color: white;
+}
+
+.search input:hover{
+    background: rgba(0, 0, 0, 0.57);
+}
+
+form,input,button{
+    outline: none;
+}
+
+footer{
+    margin: 10px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(144, 144, 218, 0.34);
+    font-size: 12px;
+    text-align: center;
+    overflow-x: hidden;
+
+}
+
+footer h1{
+font-size: 20px;
+}
+
+.footer-container{
+    margin: 8px;
+}
+
+.time{
+    font-weight: 700;
+}
+
+.date{
+    padding: 0px 70px;
+    font-weight: 700;
+}
+
+@media  screen and (max-width: 992px){
+    .placeDetail    {
+        font-size: 18px;
+        display: inline;
+    }
+
+
+    .placeDetail .datetime , .location{
+        padding: 10px;
+    }
+
+    .currentTemperature{
+        display: flex;
+        text-align: center;
+    }
+
+    .currentTemperature .other-info{
+        display: inline-block;
+    }
+
+    .description{
+        display: block;
+        text-align: center;
+    }
+
+    .today{
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .search input{
+        font-size: 20px;
+    }
+
+
+
+    .temp br{
+        display: flex;
+    }
+
+    .temp{
+        aspect-ratio: 1;
+        display: block;
+        font-size: 20px;
+    }
+}
