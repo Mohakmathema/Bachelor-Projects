@@ -1,0 +1,5 @@
+{
+    "mohak": -1,
+    "kkaka": 1,
+    "mathema": 2
+}
