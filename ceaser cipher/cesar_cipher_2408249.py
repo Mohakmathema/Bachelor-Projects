@@ -1,6 +1,3 @@
-#student_name: Mohak Bhakta Mathema
-#student_id: 2408249
-
 def welcome(): #creating function named welcome. this prints the below welcome message to the user.
     print("Welcome to the Caesar Cipher\nThis program encrypts and decrypts text with the Caesar Cipher.")
 welcome() #here we call the function. it will run the code inside this function.
