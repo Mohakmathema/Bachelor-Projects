@@ -1,5 +1,4 @@
 #name: Mohak Bhakta Mathema
-#student_id: 2408249
 
 import numpy as np #libraryto perform mathematical functions and equations
 import matplotlib.pyplot as plt #plotting library for python to make visualizations
