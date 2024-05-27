@@ -1,5 +1,4 @@
 //name: Mohak Bhakta Mathema
-//student_id: 2408249
 
 package finalAssessment_JAVA;
 
