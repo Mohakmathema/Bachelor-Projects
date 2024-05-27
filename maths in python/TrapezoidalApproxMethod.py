@@ -1,5 +1,4 @@
 #name: Mohak Bhakta Mathema
-#student_id: 2408249
 
 import numpy as np
 import matplotlib.pyplot as plt
